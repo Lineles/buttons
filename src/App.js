@@ -9,6 +9,7 @@ function App() {
   
       <Routes> 
         <Route path="/" element={<MainPage />} />
+        <Route path="/coupleEdition" element={<Couple />} />
       </Routes>   
 
   </Router>  

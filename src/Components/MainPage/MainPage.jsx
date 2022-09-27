@@ -12,7 +12,9 @@ function MainPage () {
         <div> 
             <Header />
             <div className="MainPage-Panels-Flex">
-
+                <div> 
+                    
+                </div>
             </div>
         </div>
     )
