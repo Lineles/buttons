@@ -2,6 +2,9 @@
 
 import "./MainPage.css"
 import Header from "../Header/Header";
+import CouplesPanel from "../CoupleEdigion/CouplesPanel/CouplesPanel";
+import PartyEditionPanel from "../PartyEdition/PartyEditionPanel/PartyEditionPanel";
+
 
 
 function MainPage () {
@@ -12,9 +15,8 @@ function MainPage () {
         <div> 
             <Header />
             <div className="MainPage-Panels-Flex">
-                <div> 
-                    
-                </div>
+                <CouplesPanel />
+                <PartyEditionPanel />
             </div>
         </div>
     )
