@@ -1,5 +1,47 @@
-.Panel{
+:root {
+    --Violetcolor: #0C0A3E;
+    --Patriarchcolor: #7B1E7A;
+    --Irresistiblecolor: #B33F62;
+    --OrangeRedCrayolacolor: #F9564F;
+    --MaximumYellowRedcolor: #F3C677; 
+    --whitecolor: #FFFFFF;
+    --blackcolor: black;
+  }
+
+
+.Couples-Panel{
     width: 30%;
     margin: auto;
-    border: solid black 1px;
+    border: solid var(--blackcolor) 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bitter', serif;
+    text-decoration: none;
+    background-color: var(--Patriarchcolor);
+    color: var(--MaximumYellowRedcolor);
+    font-size: 26px;
+    text-shadow: 4px 4px black;
+}
+
+.Couples-button-header{
+    font-family: 'Bitter', serif;
+    font-size: 45px;
+    padding: 14px;
+    margin-top: 0px;
+    border-radius: 14px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    top: 40px;
+}
+
+.Couples-Panel-h1{
+    color: var(--MaximumYellowRedcolor);
+    font-size: 57px;
+    text-shadow: 4px 4px black;
+    position: relative;
+    top: -19px;
+    transform: rotate(-5deg);
 }

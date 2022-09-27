@@ -6,8 +6,9 @@ function CouplesPanel () {
     return (
 
         <Link 
-            to="/coupleEdition" className="Panel">
-                <h1> Couples Edition</h1>
+            to="/coupleEdition" className="Couples-Panel">
+                <button className="Couples-button-header">!!! BUTTONS !!!</button>
+                <h1 className="Couples-Panel-h1"> Couples Edition</h1>
         
         </Link>
     )
